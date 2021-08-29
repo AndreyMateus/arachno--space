@@ -1,0 +1,68 @@
+/*ESTE ARQUIVO É SOMENTE PARA ESTILO DA PÁGINA DE LOGIN.HTML*/
+.fundo{
+  /*FUNDO DA ÁREA DE  LOGIN*/
+  background-image: url("/gifs/Gif1.gif");
+  background-color: rgba(116, 7, 70, 0.972);
+  background-repeat: no-repeat;
+  background-size: cover ;
+  width: 100%;
+  background-attachment: fixed;
+}
+
+.bdrad{
+  /*BORDA DA IMAGEM DO ASTRONAUTO EM CIMA DO LOGIN*/
+  border: 2px solid red;
+  border-radius: 25px;
+}
+
+.posiico{
+  /*DISTÂNCIA DO TOPO , IMAGEM DO ASTRONAUTO NA TELA DE LOGIN*/
+  margin-top: -200px;
+}
+
+.textfonte{
+  /*FONTE DO TEXTO LEMBRE-SE DE MIM ( LOGIN )*/
+  color: red;
+  font-size: 25px;
+}
+
+/*AS CLASSES CLASSES NÃO FORAM FEITAS POR MIM, JÁ PRONTAS DO BOOTSTRAP*/
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #f5f5f5;
+}
+
+.form-signin {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: auto;
+}
+
+.form-signin .checkbox {
+  font-weight: 400;
+}
+
+.form-signin .form-floating:focus-within {
+  z-index: 2;
+}
+
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
