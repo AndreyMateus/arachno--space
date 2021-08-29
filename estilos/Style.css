@@ -2,7 +2,7 @@
 
 .background {
     /*Fundo do site*/
-    background-image: url("/Images/Arachno_espaco.jpg");
+    background-image: url("../Images/Arachno_espaco.jpg");
     background-color: rgba(7, 18, 172, 0.972);
     background-repeat: no-repeat;
     background-size: cover  ;
@@ -50,7 +50,7 @@ div>ul>li :hover {
 
 .fundospace
 /*FUNDO DO SPACE , DO BANNER ARACHNO SPACE*/{
-    background-image: url("/gifs/giphy.gif");
+    background-image: url("../gifs/giphy.gif");
     width: 45%;
     height: 80px;
     border: 3px solid;

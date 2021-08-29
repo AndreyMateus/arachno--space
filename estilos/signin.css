@@ -1,7 +1,7 @@
 /*ESTE ARQUIVO É SOMENTE PARA ESTILO DA PÁGINA DE LOGIN.HTML*/
 .fundo{
   /*FUNDO DA ÁREA DE  LOGIN*/
-  background-image: url("/gifs/Gif1.gif");
+  background-image: url("../gifs/Gif1.gif");
   background-color: rgba(116, 7, 70, 0.972);
   background-repeat: no-repeat;
   background-size: cover ;
